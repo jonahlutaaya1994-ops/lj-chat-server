@@ -1,13 +1,14 @@
 {
-"name": "lj-chat-server",
-"version": "1.0.0",
-"description": "LJ Chat real-time messaging server",
-"main": "server.js",
-"scripts": {
-"start": "node server.js"
-},
-"dependencies": {
-"express": "^5.1.0",
-"ws": "^8.18.3"
-}
+  "name": "lj-chat-server",
+  "version": "1.0.0",
+  "description": "LJ Chat messaging server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
 }
